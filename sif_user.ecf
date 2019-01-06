@@ -15,7 +15,7 @@
 			<concurrency support="none"/>
 		</capability>
 		<library name="base" location="$ISE_LIBRARY/library/base/base.ecf"/>
-		<library name="sif_core" location="$ISE_LIBRARY/external/library/sif/core/src/sif_core.ecf" readonly="false"/>
-		<cluster name="sif_user" location="." recursive="true" readonly="true"/>
+		<library name="sif_core" location="$ISE_LIBRARY/external/library/sif/core/sif_core.ecf" readonly="false"/>
+		<cluster name="sif_user" location="./src" recursive="true"/>
 	</target>
 </system>

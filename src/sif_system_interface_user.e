@@ -11,6 +11,14 @@ deferred class
 	inherit
 		SIF_SYSTEM_INTERFACE
 
+feature -- Interaction
+
+	human: BOOLEAN
+			-- True, when system interface is used for interaction with human beings.
+		do
+			Result := true
+		end
+
 note
 	copyright: "Copyright (c) 2014-2016, SMA Services"
 	license:   "Eiffel Forum License v2 (see http://www.eiffel.com/licensing/forum.txt)"
